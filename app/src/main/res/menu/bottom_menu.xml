@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fixtures"
+        android:enabled="true"
+        android:icon="@drawable/ic_ball"
+        android:title="@string/fixtures" />
+    <item
+        android:id="@+id/players"
+        android:enabled="true"
+        android:icon="@drawable/selector_player"
+        android:title="@string/players" />
+    <item
+        android:id="@+id/google"
+        android:enabled="true"
+        android:icon="@drawable/selector_g"
+        android:title="@string/google" />
+</menu>

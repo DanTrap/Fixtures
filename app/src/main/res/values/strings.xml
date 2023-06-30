@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Fixtures</string>
+    <string name="fixtures">Fixtures</string>
+    <string name="players">Players</string>
+    <string name="google">Google</string>
 </resources>
