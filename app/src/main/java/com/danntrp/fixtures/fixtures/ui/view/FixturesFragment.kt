@@ -9,6 +9,7 @@ import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.danntrp.fixtures.R
 import com.danntrp.fixtures.databinding.FragmentFixturesBinding
+import com.danntrp.fixtures.fixtures.core.Resource
 import com.danntrp.fixtures.fixtures.ui.stateholder.FixtureViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -40,7 +41,7 @@ class FixturesFragment : Fragment(R.layout.fragment_fixtures) {
         }
 
         fixtureViewModel.fixtures.observe(viewLifecycleOwner) {
-            fixturesAdapter.differ.submitList(it.data)
+            if (it is Resource.Success) fixturesAdapter.differ.submitList(it.data)
         }
     }
 
