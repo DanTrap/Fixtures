@@ -1,4 +1,4 @@
-package com.danntrp.fixtures.google.ui.view
+package com.danntrp.fixtures.google.data.model
 
 data class NotificationPayload(
     val app_id: String,

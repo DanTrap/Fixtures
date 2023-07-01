@@ -9,6 +9,8 @@ import androidx.fragment.app.Fragment
 import com.danntrp.fixtures.ONESIGNAL_APP_ID
 import com.danntrp.fixtures.R
 import com.danntrp.fixtures.databinding.FragmentGoogleBinding
+import com.danntrp.fixtures.google.data.model.NotificationPayload
+import com.danntrp.fixtures.google.data.remote.OneSignalService
 import dagger.hilt.android.AndroidEntryPoint
 import retrofit2.Call
 import retrofit2.Callback

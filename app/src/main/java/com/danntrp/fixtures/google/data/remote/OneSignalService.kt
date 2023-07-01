@@ -1,5 +1,6 @@
-package com.danntrp.fixtures.google.ui.view
+package com.danntrp.fixtures.google.data.remote
 
+import com.danntrp.fixtures.google.data.model.NotificationPayload
 import retrofit2.Call
 import retrofit2.http.Body
 import retrofit2.http.Headers
