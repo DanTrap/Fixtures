@@ -7,6 +7,7 @@ class MapperFixtureDtoToDomain : FixtureDto.Mapper<Fixture> {
     override fun map(fixtureDto: FixtureDto): Fixture {
         return with(fixtureDto) {
             Fixture(
+                matchId = match_id,
                 matchDate = match_date,
                 homeTeamName = match_hometeam_name,
                 homeTeamBadge = team_home_badge,

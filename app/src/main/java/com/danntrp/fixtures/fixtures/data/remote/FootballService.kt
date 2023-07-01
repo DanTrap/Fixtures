@@ -13,4 +13,8 @@ interface FootballService {
         @Query("league_id") leagueId: Int,
         @Query("APIkey") apiKey: String
     ): Response<List<FixtureDto>>
+
+    companion object {
+        const val BASE_URL = "https://apiv3.apifootball.com/"
+    }
 }
